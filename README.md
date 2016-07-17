@@ -9,15 +9,12 @@ django>=1.9
 djangorestframework
 ```
 
-To install pre-requisites,
-**pip install -r requirements.txt**
-
-
 ##Installation
 ------------
 By default it is using "sqlite3". And do the following before starting the server.
 
 ```
+pip install -r requirements.txt*
 python manage.py makemigrations
 python manage.py migrate
 
