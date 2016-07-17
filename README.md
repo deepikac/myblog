@@ -14,7 +14,10 @@ djangorestframework
 By default it is using "sqlite3". And do the following before starting the server.
 
 ```
-pip install -r requirements.txt*
+pip install -r requirements.txt
+
+- Go to project dir and then, 
+
 python manage.py makemigrations
 python manage.py migrate
 
@@ -137,7 +140,7 @@ class Blog(models.Model):
 The fixtures under [project dir]/fixtures used for testing REST api.
 
 ```
-Command to test:
+Go to project directory and then do:
 
 python manage.py test
 ```
